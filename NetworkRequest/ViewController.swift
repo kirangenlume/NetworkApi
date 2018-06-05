@@ -22,7 +22,7 @@ class ViewController: UIViewController {
                 let downloadImage = UIImage(data: data!)
                 
                 performUIUpdatesOnMain {
-                    self.imageView.image = downloadImage
+                    self.downloadedImage.image = downloadImage
                 }
             }
         }
